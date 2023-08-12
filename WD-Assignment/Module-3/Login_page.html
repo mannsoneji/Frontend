@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page : bank login</title>
+
+    <style>
+        li 
+        {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header align="center" style="color : red"><h1 style="background-color : rgb(10, 109, 246)"><b>Individual Registration</b></h1></header>
+
+    <form style="background-color: rgb(107, 215, 245);">
+        <br>
+        <p style="color : red"><b>User Particuler</b></p>
+
+        <table align="center">
+            <tr>
+                <td align="right">
+                    <li><b>* Login ID </b></li>
+                </td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <li>
+                        <b>* Password </b>
+                    </li>
+                </td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <li><b>* Confirm Password</b></li>
+                </td>
+                <td><input type="password"></td>
+            </tr>
+
+        </table>
+
+        <p style="color : red"><b>Person Particular</b></p>
+        <table  align="center">
+            <tr>
+                <td align="right"><li><b>* Salutation </b></li></td>
+                <td><select name="salutation" id="salutation">
+                    <option align="center" value="select">--Select--</option>
+                    <option align="center" value="mr">MR.</option>
+                    <option align="center" value="miss">Miss</option>
+                    <option align="center" value="mrs.">Mrs.</option>
+                </select></td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td align="right">
+                    <li><b> *First Name</b></li>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><li><b>Middle Name </b></li></td>
+                <td><input type="text"></td>
+                <td colspan="8">   </td>
+            
+                <td align="right">
+                    <li><b>* Last Name</b></li>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><li><b>* Resident Status</b></li> </td>
+                <td><select name="resident" id="resident">
+                    <option align="center" value="select">--Select--</option>
+                    <option align="center" value="owned">Owned</option>
+                    <option align="center" value="rental">Rental</option>
+                    
+                </select></td>
+                <td colspan="8"></td>
+            
+                <td align="right">
+                    <li><b>* Country</b></li>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="select" hidden>---- Select ----</option>
+                        <option align="center" value="australia">Australia</option>
+                        <option align="center" value="brazil">Brazil</option>
+                        <option align="center" value="bulgaria">Bulgaria</option>
+                        <option align="center" value="bangladesh">Bangladesh</option>
+                        <option align="center" value="canada">Canada</option>
+                        <option align="center" value="china">China</option>
+                        <option align="center"value="India">India</option>
+                        <option align="center" value="uae">UAE</option>
+                        <option align="center" value="uk">UK</option>
+                        <option align="center" value="usa">USA</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <li><b>* Email</b></li>
+                </td>
+                <td>
+                    <input type="email">
+                </td>
+                <td colspan="8"></td>
+                <td align="right">
+                    <li><b>* Mobile Number</b></li>
+                </td>
+                <td>
+                    <input type="mobilenumber">
+                </td>
+            </tr>
+        </table>
+
+        <p style="color : red"><b>Account Particular</b></p>
+
+        <table align="center" >
+            <tr>
+                <td>
+                    <li><b>* 15 Digit Account NO</b></li>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>
+                    <li><b>* Nick Name</b></li>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <li align="right"><b>* Fund Transfer</b></li>
+                </td>
+                <td>
+                    <select name="select" id="select">
+                        <option align="center" value="Select">---- Select ----</option>
+                        <option align="center" value="1 to 50000">1 to 50000</option>
+                        <option align="center" value="50000 to 100000">50000 to 100000</option>
+                        <option align="center" value="100000 to 500000">100000 to 500000</option>
+                        <option align="center" value="500000 to 1000000">500000 to 1000000</option>
+                        <option align="center" value="1000000 to 5000000">1000000 to 5000000</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <p style="color : red"><b>DECLARATION</b><br></p>
+        <p>
+            I have read,understood and hereby agree to the Terms and Conditionsin repsect of all products and channels. <br>
+
+            I understood that any changes in the terms and condition applicable to this relationship would be made available to me on request at any IOB branches.I confirm that all accounts under this login name are operated singly and is case of joint account operated by either or survivor / anyone or survivor(s) under his/her joint name respectively.I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.
+        </p>
+
+        <table align="center">
+            <tr>
+                <td><input type="Submit"></td>
+                <td><input type="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
