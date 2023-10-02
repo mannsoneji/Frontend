@@ -1,0 +1,84 @@
+    /*   Media quarry width: 1100px */
+
+@media screen and (max-width:1100px) {
+    nav{width: 100%;}
+    .logo img {margin-right: 40px;}
+    .details{width: 100%;left: 0;}
+    .advance{padding: 30px 0;}
+    .choice1 select{margin-right: 10px;}
+    .advance input,.btn1 ,.btn2 .btn1       {margin: 0 10px 0 0;}
+    .contain2{width: 100%;}
+    .cards1{width: 40%;flex-direction: column;}
+    .cards1 .card1{width: 100%;}
+    .information1{width: 100%;}
+    .contain21{width: 90%;}
+    .part1{width: 50%;}
+    .upper{padding: 0;}
+    .available{width: 30%;}
+    .cards2{width: 27%;}
+    .sore{width: 80%;}
+    .contain6{width: 80%;}
+    .this1{width: 45%;}
+    .overimg1{width: 350px;}
+    .contain7{width: 100%;}
+    .imgone{width: 25%;}
+    .container8 footer{width: 90%;}
+}
+
+
+    /*   Media quarry width: 700px */
+
+@media screen and (max-width:700px) {
+    nav{width: 100%;}
+    .logo img {width: 100px;object-fit: cover;}
+    nav li{margin-top: 0;padding: 0;}
+    nav ul li a{font-size: 14px;}
+    nav ul li a:hover{padding: 5px;}
+    .list{width: 100px;margin: 0 5px;height: 30px;}
+    .user i {font-size: 20px;width: 20px;padding: 0 12px;}
+    .details{width: 100%;top: 50%;}
+    .address,.icons,.price{width: 100%;margin-bottom: 20px;}
+    .advance{width: 100%;}
+    .choice1{width: 40%;margin-bottom: 20px;}
+    .advance input,.btn1 ,.btn2 .btn1{width: 40%;}
+    .search1{margin-top: 20px;}
+    .cards1{width: 60%;flex-direction: column;}
+    .contain21{width: 100%;}
+    .left{margin-right: 10px;}
+    .upper{text-align: center;}
+    .fp{width: 100%;margin-bottom: 20px;}
+    .available{width: 100%;}
+    .cards2{width: 60%;}
+    .director{width: 100%;}
+    .sore{width: 100%;margin: 30px 0;}
+    .btns{width: 60%;flex-direction: column;}
+    .btns1 , .btns2{width: 40%;margin: 40px 0;}
+    .this1{width: 50%;}
+    .imgone{width: 50%;margin: 20px 0;}
+    .container8 footer{width: 100%;}
+    .popular{width: 50%;}
+    .front{width: 100%;padding: 0;}
+    .foot .copy{width: 100%; margin-bottom: 20px;text-align: center;}
+    .foot .sociallogo{width: 100%;text-align: center;}
+}
+
+
+         /*   Media quarry width: 500px */
+
+
+@media screen and (max-width:700px) {
+    nav{width: 100%;}
+    .user i{opacity: 0;}
+    .choice1 , .advance input , .btn1 ,.btn2 .btn1{width: 80%;margin-bottom: 20px;}
+    .property{padding:50px 10px;}
+    .texts1{padding: 15px;}
+    .cards1{width: 80%;flex-direction: column;}
+    .part1{width: 100%;}
+    .cards2{width: 80%;}
+    .this1{width: 100%;justify-content: center;}
+    .overimg1{width: 350px;}
+    .imgone{width: 100%;margin: 20px 0;}
+    .popular{width: 100%; margin: 0 30px;}
+    .front{width: 100%;padding: 0;}
+    .front ul li {display: block; padding-bottom: 10px;text-align: left;margin: 0 32px;}
+}
