@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to apply css in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <style>
+        .rcss {
+            color: white;
+            background-color: red;
+            font-size: 20px;
+        }
+        div {
+            background-color: skyblue;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <!-- apply css and add or remove class name and animate -->
+    
+    <button>Move Div</button>
+
+    <div></div>
+
+        <h3>How to add Class</h3>
+        <p class="rcss" >How to remove Class</p>
+
+    <script>
+        
+        $(document).ready(function(){
+
+            // apply css in jQuery
+            $('h3').css("background", "blue");
+
+            // add class in jQuery
+            
+            $("h3").addClass("addcss");
+            $('.addcss').css("color" , "white");
+
+            // remove class in jQuery
+
+            $('p').removeClass();
+
+            $("button").click(function(){
+                $("div").animate({
+                left: '200px',
+                opacity: '0'
+            });
+            })
+        });    
+        
+    </script>
+
+</body>
+</html>
