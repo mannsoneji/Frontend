@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js - Assesment</title>
+</head>
+
+<body>
+    <!-- JavaScript Assessment Test 5 -->
+
+
+    <script>
+
+        function arrayToObject(arr) {
+            const result = {};
+
+            arr.forEach(num => {
+                if (result[num]) {
+                    result[num] += 1;
+                } else {
+                    result[num] = 1;
+                }
+            });
+
+            return result;
+        }
+
+        const numbers = [1, 2, 2, 3];
+        const result = arrayToObject(numbers);
+        console.log(result);
+
+
+    </script>
+</body>
+
+</html>
